@@ -1,0 +1,87 @@
+
+body{
+background: #f2f2f2;
+border: none;
+height: 70px;
+position: relative;
+text-align: center;
+}
+header{
+    background: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+footer{
+    background: white;
+    height: 50px;
+    text-align: right;
+    padding-top: 8px;
+    color: darkgray;
+    font-family: 'PT Serif', serif;
+    padding-right: 200px;
+
+
+}
+    
+h1{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    color: darkgray;
+    position: relative;
+
+}
+p{
+    
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navigation{
+    padding-top: 10px;
+    color: white;
+}
+nav a {
+    margin: 3px;
+    padding: 3px;
+    color: darkgray;
+    font-family: 'PT Serif', serif;
+}
+.container{
+    height: 449px;
+    width: 362px;
+    float: left;
+    margin-top: 100px;
+
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20 px;
+    background-color: white;
+    text-align: left;
+
+}
+.wrap { 
+    width: 1310px;/*фиксируем ширину обертки*/ 
+    margin: 0 auto;/*центрируем ее*/ 
+    background: white; 
+    height: 1620px;/*Задаем высоту обертки*/ 
+    padding-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    
+}
+.wrap :last-child { margin-right: 0px;/*Убираем поле последнего div-а*/ }
+
+
+
+
+.image{
+    height: 218px;
+    width: 310px;
+    text-align: center;
+
+}
