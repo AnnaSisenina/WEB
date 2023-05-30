@@ -39,6 +39,7 @@ p{
 }
 h3{
     font-family: 'Source Sans Pro', sans-serif;
+    color: black;
 }
 .navigation{
     padding-top: 10px;
@@ -62,6 +63,8 @@ nav a {
     padding-right: 20 px;
     background-color: white;
     text-align: left;
+    font-weight: 600;
+    color: darkgrey
 
 }
 .wrap { 
@@ -76,12 +79,62 @@ nav a {
 }
 .wrap :last-child { margin-right: 0px;/*Убираем поле последнего div-а*/ }
 
-
-
-
 .image{
     height: 218px;
     width: 310px;
     text-align: center;
 
+}
+
+.inputName {
+    padding-top: 20px;
+    text-align: left;
+}
+
+input {
+    
+    padding: 3px;
+    border:2px solid #eee;
+    box-shadow:0 0 20px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+
+button {
+    font-family: inherit;
+    color: darkgrey;
+    border: 2px solid #eee;
+    box-shadow: 0 0 20px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+
+button:hover {
+    background: #f3f3f3;
+    font-family: inherit;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #d2d2d4;
+  }
+
+
+.outputHello {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+.inputMsg{
+    text-align: left;
+    font-family: inherit;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.outputMsg{
+    text-align: left;
+    font-family: inherit;
+    padding: 3px;
+    box-sizing: border-box;
 }
